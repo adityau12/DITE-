@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dite_student.android.dite.mechatronics_1_sem">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/am1"
+        android:text="APPLIED MATHEMATICS-I"/>
+
+
+    <Button
+        android:layout_below="@id/am1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ap1"
+        android:text="APPLIED PHYSICS-I"/>
+    <Button
+        android:id="@+id/mp"
+
+        android:layout_below="@id/ap1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MANUFACTURING PROCESS"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et"
+        android:layout_below="@id/mp"
+        android:text="ELECTRICAL TECHNOLOGY"/>
+    <Button
+        android:id="@+id/hvep"
+        android:layout_below="@id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HUMAN VALUES AND PROFESSIONAL ETHICS-1"/>
+    <Button
+        android:id="@+id/foc"
+        android:layout_below="@id/hvep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FUNDAMENTALS OF COMPUTING"/>
+    <Button
+        android:layout_below="@id/foc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APPLIED CHEMISTRY"/>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    tools:context="com.dite_student.android.dite.QUESTION_PAPERS"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mechatronics"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/mechatronics"
+        android:onClick="open_mechatronics_papers"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        android:layout_marginLeft="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOOL"
+
+        android:onClick="open_tools_paper"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

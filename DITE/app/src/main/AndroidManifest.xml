@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dite_student.android.dite">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dite"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QUESTION_PAPERS"
+            android:label="DITE" />
+        <activity
+            android:name=".mechatronics_papers"
+            android:label="DITE" />
+        <activity
+            android:name=".TOOLS_PAPERS"
+            android:label="DITE" />
+        <activity
+            android:name=".mechatronics_1_sem"
+            android:label="I SEM" />
+        <activity
+            android:name=".mechatronics_2_sem"
+            android:label="II SEM" />
+        <activity
+            android:name=".mechatronics_3_sem"
+            android:label="III SEM" />
+        <activity
+            android:name=".mechatronics_4_sem"
+            android:label="IV SEM" />
+        <activity
+            android:name=".mechatronics_5_sem"
+            android:label="V SEM" />
+        <activity
+            android:name=".mechatronics_6_sem"
+            android:label="VI SEM" />
+        <activity
+            android:name=".mechatronics_7_sem"
+            android:label="VII SEM" />
+        <activity
+            android:name=".mechatronics_8_sem"
+            android:label="VIII SEM" />
+        <activity
+            android:name=".tools_1_sem"
+            android:label="I SEM" />
+        <activity
+            android:name=".tools_2_sem"
+            android:label="II SEM" />
+        <activity
+            android:name=".tools_3_sem"
+            android:label="III SEM" />
+        <activity
+            android:name=".tools_4_sem"
+            android:label="IV SEM" />
+        <activity
+            android:name=".tools_5_sem"
+            android:label="V SEM" />
+        <activity
+            android:name=".tools_6_sem"
+            android:label="VI SEM" />
+        <activity
+            android:name=".tools_7_sem"
+            android:label="VII SEM" />
+        <activity
+            android:name=".tools_8_sem"
+            android:label="VIII SEM" />
+        <activity android:name=".syllabus" />
+        <activity android:name=".syllabus_tool" />
+        <activity android:name=".contact" />
+        <activity android:name=".syllabus_met" />
+        <activity android:name=".cim2017" />
+        <activity android:name=".cim"></activity>
+    </application>
+
+</manifest>

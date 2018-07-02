@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dite_student.android.dite.tools_4_sem">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tom"
+        android:text="theory of machines"/>
+
+
+    <Button
+        android:layout_below="@id/tom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mf"
+        android:text="metal forming"/>
+
+    <Button
+        android:id="@+id/mt"
+        android:layout_below="@id/mf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="machine tools"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/med"
+        android:layout_below="@id/mt"
+        android:text="machine element design"/>
+    <Button
+        android:id="@+id/ts"
+        android:layout_below="@id/med"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THERMAL SCIENCE"/>
+    <Button
+        android:layout_below="@id/ts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="metrology and quality assurance"/>
+</RelativeLayout>

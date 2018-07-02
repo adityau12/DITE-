@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.dite_student.android.dite.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#bb033eb4"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:text="DELHI INSTITUTE OF TOOL               ENGINEERING " />
+
+    <ImageView
+        android:src="@drawable/dite"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"/>
+    <Button
+        android:textColor="#f70a0a0a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="50dp"
+        android:textSize="20sp"
+        android:paddingRight="50dp"
+        android:text="syllabus"
+        android:textAlignment="center"
+        android:onClick="open_syllabus"/>
+
+    <Button
+        android:textColor="#f70a0a0a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="50dp"
+        android:textSize="20sp"
+        android:paddingRight="50dp"
+        android:text="QUESTION PAPERS"
+        android:textAlignment="center"
+        android:onClick="open_qp"/>
+    <Button
+        android:textColor="#f70a0a0a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="50dp"
+        android:textSize="20sp"
+        android:paddingRight="50dp"
+        android:text="contact/feedback"
+        android:textAlignment="center"
+        android:onClick="open_contact"/>
+
+</LinearLayout>
